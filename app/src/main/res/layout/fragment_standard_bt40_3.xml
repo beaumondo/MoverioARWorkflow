@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ARWorkflowBackground"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNext"
+        style="@style/ARWorkflowNavButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/button_selector"
+        android:backgroundTint="@drawable/button_selector"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/button_default_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtStandardBT40Title"
+        style="@style/txtViewTitle"
+        android:layout_width="579dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Ideal for everyday use and a range of activities."
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBack"
+        style="@style/ARWorkflowNavButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_selector"
+        android:backgroundTint="@drawable/button_selector"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/button_default_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgSubtitles"
+        android:layout_width="290dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack"
+        app:srcCompat="@drawable/bt40_subtitles" />
+
+    <ImageView
+        android:id="@+id/imgSecondScreen"
+        android:layout_width="290dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imgSubtitles"
+        app:layout_constraintTop_toTopOf="@+id/imgSubtitles"
+        app:srcCompat="@drawable/bt40_second_screen" />
+
+    <ImageView
+        android:id="@+id/imgVisitorExperience"
+        android:layout_width="290dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imgSecondScreen"
+        app:layout_constraintTop_toTopOf="@+id/imgSecondScreen"
+        app:srcCompat="@drawable/bt40_visitor" />
+
+    <TextView
+        android:id="@+id/txtVisitorExperience"
+        android:layout_width="294dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/enhance_the_visitor_experience"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/imgVisitorExperience"
+        app:layout_constraintStart_toStartOf="@+id/imgVisitorExperience"
+        app:layout_constraintTop_toBottomOf="@+id/imgVisitorExperience" />
+
+    <TextView
+        android:id="@+id/txtSubtitling"
+        android:layout_width="287dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/improve_accessibility_to_theaters_and_cinemas"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/imgSubtitles"
+        app:layout_constraintStart_toStartOf="@+id/imgSubtitles"
+        app:layout_constraintTop_toBottomOf="@+id/imgSubtitles" />
+
+    <TextView
+        android:id="@+id/txtSecondScreen"
+        android:layout_width="291dp"
+        android:layout_height="121dp"
+        android:text="@string/thanks_to_the_usb_c_standard"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/imgSecondScreen"
+        app:layout_constraintStart_toStartOf="@+id/imgSecondScreen"
+        app:layout_constraintTop_toTopOf="@+id/txtSubtitling" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

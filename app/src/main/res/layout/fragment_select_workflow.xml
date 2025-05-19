@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ARWorkflowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainFragment">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBack"
+        style="@style/ARWorkflowNavButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_selector"
+        android:backgroundTint="@drawable/button_selector"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/button_default_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtAdjustTitle"
+        style="@style/txtViewTitle"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/oem_learn_method_title"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgBT40"
+        android:layout_width="315dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="50dp"
+        android:src="@drawable/bt40_840_400"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnARImageExperience"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStandard"
+        style="@style/ARWorkflowNavButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/button_selector"
+        android:backgroundTint="@drawable/button_selector"
+        android:text="@string/standard_experience"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/button_default_color"
+        app:layout_constraintStart_toEndOf="@+id/txtStandard"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnARImageExperience"
+        style="@style/ARWorkflowNavButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_selector"
+        android:backgroundTint="@drawable/button_selector"
+        android:text="@string/ar_image_experience"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/button_default_color"
+        app:layout_constraintStart_toStartOf="@+id/btnStandard"
+        app:layout_constraintTop_toBottomOf="@+id/btnStandard" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnARObjectExperience"
+        style="@style/ARWorkflowNavButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_selector"
+        android:backgroundTint="@drawable/button_selector"
+        android:text="@string/ar_object_experience"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        app:backgroundTint="@color/button_default_color"
+        app:layout_constraintStart_toStartOf="@+id/btnARImageExperience"
+        app:layout_constraintTop_toBottomOf="@+id/btnARImageExperience" />
+
+    <TextView
+        android:id="@+id/txtStandard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="125dp"
+        android:text="@string/i_do_not_have_a_bt_40_45c"
+        app:layout_constraintStart_toStartOf="@+id/btnBack"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack" />
+
+    <TextView
+        android:id="@+id/txtImageAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/printout_bt40_bt_45c"
+        app:layout_constraintStart_toStartOf="@+id/txtStandard"
+        app:layout_constraintTop_toBottomOf="@+id/txtStandard" />
+
+    <TextView
+        android:id="@+id/txtObjectAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/physical_have_bt40_bt45c"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/txtImageAR"
+        app:layout_constraintTop_toBottomOf="@+id/txtImageAR" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

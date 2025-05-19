@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ARWorkflowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_selector"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:id="@+id/txtLogo"
+        style="@style/txtViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:text="MOVERIO"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAdjustment"
+        style="@style/ARWorkflowNavButton"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/button_selector"
+        android:backgroundTint="@drawable/button_selector"
+        android:text="@string/setup_bt_45c_headset"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/button_default_color"
+        app:layout_constraintStart_toEndOf="@+id/imgViewBT45Front"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStart"
+        style="@style/ARWorkflowNavButton"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button_selector"
+        android:backgroundTint="@drawable/button_selector"
+        android:text="@string/start_bt_45cs_workflow"
+        app:layout_constraintStart_toEndOf="@+id/imgViewBT45Front"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdjustment" />
+
+    <ImageView
+        android:id="@+id/imgViewBT45Front"
+        android:layout_width="372dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/moverio_bt_45c_smart_glass_front_view"
+        android:src="@drawable/bt45_front"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMainTitle"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <TextView
+        android:id="@+id/txtMainTitle"
+        style="@style/txtViewTitle"
+        android:text="@string/moverio_ar_demo_workflow_app"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtMainSubtitle"
+        style="@style/txtViewSubtitle"
+        android:text="@string/main_page_subtext_intro"
+        app:layout_constraintStart_toStartOf="@+id/txtMainTitle"
+        app:layout_constraintTop_toBottomOf="@+id/txtMainTitle" />
+
+    <!--    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnScanCard"
+            style="@style/ARWorkflowNavButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/button_selector"
+            android:drawablePadding="50dp"
+            android:insetBottom="0dp"
+            android:text="@string/web_visit"
+            app:backgroundTint="@color/button_default_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" /> -->
+    <!-- app:icon="@drawable/scanner_white_32"
+     app:iconPadding="16dp"
+     app:iconTint="@color/white"
+     app:iconSize="24dp"
+     app:iconGravity="textEnd" -->
+    <TextView
+        android:id="@+id/btnScanCard"
+        style="@style/ARWorkflowNavButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/button_selector"
+        android:padding="16dp"
+        android:text="@string/web_visit"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:backgroundTint="@color/button_default_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

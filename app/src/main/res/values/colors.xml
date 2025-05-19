@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f1f3f5</color>
+    <color name="colorAccent">#cccccc</color>
+    <color name="colorBackground">#FF000000</color>
+    <color name="colorTextBlack">#FF000000</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="epson">#003399</color>
+    <color name="button_default_color">#003399</color>
+    <color name="button_selected_color">#003399</color>
+    <color name="button_pressed_color">#003399</color>
+</resources>

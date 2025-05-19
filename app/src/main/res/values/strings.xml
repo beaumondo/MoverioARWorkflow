@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Moverio AR Workflow</string>
+    <string name="epson_logo">EPSON</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_workflow">Start WorkFlow</string>
+    <string name="home">home</string>
+    <string name="moverio_ar_demo_workflow_app">Augmented Reality demo app</string>
+    <string name="adjust_title">Please adjust the angle of the headset so that you can see the full screen</string>
+    <string name="slider_title">You can also use the slider to change the display distance</string>
+    <string name="setup_bt_45c_headset">Adjustment and Configuration</string>
+    <string name="back">Back</string>
+    <string name="start_bt_45cs_workflow">Start Workflow</string>
+    <string name="enable_transparent_mode">Transparent Mode</string>
+    <string name="moverio_bt_45c_smart_glass_front_view">Moverio BT-45C smart glass front view</string>
+    <string name="description">DESCRIPTION:</string>
+    <string name="step">STEP:</string>
+    <string name="previous">Previous</string>
+    <string name="bt_350_smart_glass_isometric_view">BT-350 smart glass isometric view</string>
+    <string name="initial_step_download">In this initial step please take the BT-350 headset and place it flat on a table in front of you. If you do not have a BT-350 model then please download the BT-350 Isometric image</string>
+    <string name="identify_bt_350">Identify Moverio BT-350 Model</string>
+    <string name="next">Next</string>
+    <string name="download">Download AR Marker</string>
+    <string name="headset_detached_please_reconnect">"Headset detached. \n Connect Moverio USB-C Cable "</string>
+    <string name="trackpad_intro">
+        This device has two viewing modes \n Mirror Mode and Trackpad mode. \n\n
+        You can switch between these modes by pressing the Switch key twice on the left of the device.
+        </string>
+    <string name="make_sure_hs_connected">Please make sure the Moverio Headset is connected</string>
+    <string name="confirm_trackpad_mode">Please make sure the Moverio is in Trackpad Mode</string>
+    <string name="scan_card">Scan your business card to be sent brochure</string>
+    <string name="web_visit">Visit <u>http://www.epson.eu/moverio</u> for further information </string>
+    <string name="main_page_subtext_intro">Test the latest Epson Moverio smart with this AR demonstration app that can detect real world objects and overlay content</string>
+    <string name="adjustment_subtext_intro">You should be able to see the number boxes in all four corners</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="alignment_box_3">Alignment box 3 Bottom Left</string>
+    <string name="alignment_box_4">Alignment box 4 Bottom Right</string>
+    <string name="alignment_box_2">Alignment box 2 Top Right</string>
+    <string name="alignment_box_1">Alignment box 1 Top Left</string>
+    <string name="adjust_screen_horizontal_shift">Adjust screen horizontal shift</string>
+    <string name="headset_adjustment_image">Headset Adjustment Image</string>
+    <string name="select_workflow_title">What would you like to learn ? Robots or the BT-40 Optical Engine</string>
+    <string name="select_workflow_subtitle">Press the button for the activity you would like to test</string>
+    <string name="epson_robots">EPSON ROBOTS</string>
+    <string name="bt_40_optical_engine">BT-40 Optical Engine</string>
+    <string name="oem_learn_method_title">Choose the best option to discover the Moverio smart glass</string>
+    <string name="standard_experience">Standard Experience</string>
+    <string name="ar_image_experience">AR Image Experience</string>
+    <string name="ar_object_experience">AR Object Experience</string>
+    <string name="txt_ar_image_title">Great, you have a print out of either the BT-40 or BT-45CS ?</string>
+    <string name="moverio_learn_standard_title">Which product would you like to discover ?</string>
+    <string name="bt_40">BT-40</string>
+    <string name="bt_45c">BT-45C</string>
+    <string name="printout_bt40_bt_45c">I have a printout of a BT-40 or BT-45C</string>
+    <string name="physical_have_bt40_bt45c">I physical have another BT-40 or BT-45C</string>
+    <string name="i_do_not_have_a_bt_40_45c">I do not have a BT-40 or BT-45C smart glass</string>
+    <string name="camera_open_fail">Camera open fails. Please check camera permission is allowed</string>
+    <string name="bt_45c_includes_many_features">Product Features and Specifications</string>
+    <string name="moverio_history">EPSON has been manufacturing smart glasses under the brand MOVERIO for over 10 years</string>
+    <string name="industrial_smart_glasses">Industrial smart glasses</string>
+    <string name="ideal_for_remote_assistance_and_digital_workflow">Ideal for Remote Assistance and Digital Workflow</string>
+    <string name="customer_satisfaction">Customer Satisfaction</string>
+    <string name="boost_productivity">Boost Productivity</string>
+    <string name="fast_response_time">Fast Response Time</string>
+    <string name="end_of_this_experience">You have reached the end of this experience</string>
+    <string name="go_to_the_home_page">Go to the Home Page</string>
+    <string name="try_another_experience">Try Another Experience</string>
+    <string name="enhance_the_visitor_experience">Enhance your visitor experience by offering an immersive virtual guide to complement your visit.</string>
+    <string name="improve_accessibility_to_theaters_and_cinemas">Improve accessibility to theaters and cinemas for individuals who are hard of hearing or for audiences who speak non-native languages.</string>
+    <string name="thanks_to_the_usb_c_standard">Thanks to the USB-C standard, you can connect to your laptop or compatible smartphone, providing an immersive second-screen experience.</string>
+    <string name="ar_object_title">You have either an actual BT-40 or BT-45C in front of you ? Perfect</string>
+    <string name="ar_image_subtext_intro">Look at the image so it is visible in the camera and wait for AR content to be displayed.</string>
+    <string name="far">Far</string>
+    <string name="near">Near</string>
+
+
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ARWorkflowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:id="@+id/txtSliderTitle"
+        style="@style/txtViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/slider_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAdjustment" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBack"
+        style="@style/ARWorkflowNavButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_selector"
+        android:backgroundTint="@drawable/button_selector"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/button_default_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtAdjustTitle"
+        style="@style/txtViewTitle"
+        android:layout_marginTop="20dp"
+        android:text="@string/adjust_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack" />
+
+    <TextView
+        android:id="@+id/txtAdjustSubTitle"
+        style="@style/txtViewSubtitle"
+        android:layout_marginTop="4dp"
+        android:text="@string/adjustment_subtext_intro"
+        app:layout_constraintStart_toStartOf="@+id/txtAdjustTitle"
+        app:layout_constraintTop_toBottomOf="@+id/txtAdjustTitle" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/one"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/alignment_box_1"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/two"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/alignment_box_2" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/three"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/alignment_box_3"/>
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:contentDescription="@string/alignment_box_4"
+        android:gravity="center"
+        android:text="@string/four"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+    <ImageView
+        android:id="@+id/imgAdjustment"
+        android:layout_width="545dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAdjustSubTitle"
+        app:srcCompat="@drawable/headset_adjustment"
+        android:contentDescription="@string/headset_adjustment_image"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sliderDistance"
+        android:layout_width="700dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/adjust_screen_horizontal_shift"
+        android:stepSize="1"
+        android:value="32"
+        android:valueFrom="0"
+        android:valueTo="36"
+        app:labelBehavior="gone"
+        app:layout_constraintStart_toEndOf="@+id/imgViewFar"
+        app:layout_constraintTop_toBottomOf="@+id/txtSliderTitle"
+        app:thumbColor="@color/white"
+        app:tickColorActive="@color/white"
+        app:tickColorInactive="@color/button_default_color"
+        app:trackColorActive="@color/button_default_color"
+        app:trackColorInactive="@color/white" />
+
+    <ImageView
+        android:id="@+id/imgViewFar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/far"
+        android:src="@drawable/trapeze_32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSliderTitle" />
+
+    <ImageView
+        android:id="@+id/imgViewNear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/near"
+        android:src="@drawable/trapeze_64"
+        app:layout_constraintStart_toEndOf="@+id/sliderDistance"
+        app:layout_constraintTop_toBottomOf="@+id/txtSliderTitle" />
+
+    <TextView
+        android:id="@+id/txtFar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/far"
+        app:layout_constraintStart_toStartOf="@+id/imgViewFar"
+        app:layout_constraintTop_toBottomOf="@+id/imgViewFar" />
+
+    <TextView
+        android:id="@+id/txtNear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/near"
+        app:layout_constraintEnd_toEndOf="@+id/imgViewNear"
+        app:layout_constraintTop_toBottomOf="@+id/imgViewNear" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

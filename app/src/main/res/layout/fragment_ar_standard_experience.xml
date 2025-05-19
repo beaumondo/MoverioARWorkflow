@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ARWorkflowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainFragment">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBack"
+        style="@style/ARWorkflowNavButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_selector"
+        android:backgroundTint="@drawable/button_selector"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/button_default_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtARStandardTitle"
+        style="@style/txtViewTitle"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/moverio_learn_standard_title"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBT40"
+        style="@style/ARWorkflowNavButton"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="96dp"
+        android:text="@string/bt_40"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/button_default_color"
+        app:icon="@drawable/bt40_front_square"
+        app:iconGravity="top"
+        app:iconSize="180dp"
+        app:iconTint="@null"
+        app:layout_constraintStart_toEndOf="@+id/btnBT45"
+        app:layout_constraintTop_toTopOf="@+id/btnBT45" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBT45"
+        style="@style/ARWorkflowNavButton"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/bt_45c"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/button_default_color"
+        app:icon="@drawable/bt45_front_square"
+        app:iconGravity="top"
+        app:iconSize="180dp"
+        app:iconTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtARStandardTitle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

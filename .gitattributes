@@ -1,0 +1,4 @@
+app/src/main/res/raw/bt40_features.mp4 filter=lfs diff=lfs merge=lfs -text
+app/src/main/res/raw/bt45c_features.mp4 filter=lfs diff=lfs merge=lfs -text
+app/src/main/res/raw/moverio_history.mp4 filter=lfs diff=lfs merge=lfs -text
+
