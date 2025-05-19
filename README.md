@@ -12,4 +12,4 @@ A step-by-step AR demo app designed for the Epson Moverio BT-45C smart glasses. 
 
 You can download the latest build of the Moverio AR Workflow app below:
 
-[👉 Download APK (v1.0)](https://yourdomain.com/moverio-ar-workflow.apk)
+[👉 Download APK (v1.0)](https://drive.google.com/file/d/1Zi_XPIVU_ZX56I-iCgiZRqn7E81mnKfb)
