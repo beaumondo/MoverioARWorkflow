@@ -26,8 +26,9 @@ The app is designed to detect specific images as AR markers. To try the full exp
 - Print or display the sample image targets included in the `assets/targets` folder
 - Align the glasses’ camera with the marker to trigger AR content
 
-![BT-40 AR Image Target](images/bt40_image_tracker.jpg)
-![BT-45C AR Image Target](images/bt45c_image_tracker.jpg)
+[BT-40 AR Image Target](images/bt40_image_tracker.jpg)
+
+[BT-45C AR Image Target](images/bt45c_image_tracker.jpg)
 
 ---
 
