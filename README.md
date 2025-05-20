@@ -12,7 +12,7 @@ A step-by-step AR demo app designed for the Epson Moverio BT-45C smart glasses. 
 
 ## Screenshots
 
-![Demo Screenshot 1](images/demo1.png)
+![Demo Screenshot 1](images/home_small.png)
 ![Demo Screenshot 2](images/demo2.png)
 
 ---
