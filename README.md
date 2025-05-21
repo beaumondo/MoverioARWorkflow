@@ -40,7 +40,7 @@ You can download the latest build of the Moverio AR Workflow app below:
 
 ---
 
-## Contact 📬
+## 📬 Contact
 
 For questions, collaborations, or business inquiries, feel free to reach out:
 
