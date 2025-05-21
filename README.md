@@ -2,7 +2,7 @@
 
 A step-by-step AR demo app designed for the Epson Moverio BT-45C smart glasses. Built using the MAXST AR SDK.
 
-## Features
+## 🚀 Features
 
 - AR Marker Detection
 - Workflow Step Navigation
@@ -10,7 +10,7 @@ A step-by-step AR demo app designed for the Epson Moverio BT-45C smart glasses. 
 
 ---
 
-## Screenshots
+## 🖼️ Screenshots
 
 ![Home Screenshot](images/home_small.png)
 ![Display Distance Screenshot](images/display_distance.png)
@@ -19,7 +19,7 @@ A step-by-step AR demo app designed for the Epson Moverio BT-45C smart glasses. 
 
 ---
 
-## AR Target Setup
+## 🎯 AR Target Setup
 
 The app is designed to detect specific images as AR markers. To try the full experience:
 
